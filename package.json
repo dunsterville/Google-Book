@@ -1,5 +1,5 @@
 {
-  "name": "Google-Book",
+  "name": "googlebook",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -22,7 +22,6 @@
   "bugs": {
     "url": "https://github.com/dunsterville/Google-Book/issues"
   },
-<<<<<<< HEAD
   "homepage": "https://github.com/dunsterville/Google-Book#readme",
   "dependencies": {
     "concurrently": "^5.0.2",
@@ -31,7 +30,4 @@
     "if-env": "^1.0.4",
     "mongoose": "^5.8.7"
   }
-=======
-  "homepage": "https://github.com/dunsterville/Google-Book#readme"
->>>>>>> cc633ff2f7f5c5b5b4d0c96b16ca6b1e6d11658d
 }

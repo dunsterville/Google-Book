@@ -8,6 +8,5 @@ module.exports = (model, Schema) => {
       data: Buffer, contentType: String
     }
   })
+  return model('GoogleBooks', GoogleBooks)
 }
-
-return models('googlebooks', GoogleBooks)

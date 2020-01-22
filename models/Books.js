@@ -4,9 +4,7 @@ module.exports = (model, Schema) => {
     author: String,
     description: String,
     link: String,
-    image: {
-      data: Buffer, contentType: String
-    }
+    image: String
   })
   return model('GoogleBooks', GoogleBooks)
 }

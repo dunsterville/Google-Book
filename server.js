@@ -11,6 +11,6 @@ app.use(express.json())
 require('./routes')(app)
 
 require('mongoose')
-  .connect(process.env.NODE_ENV === 'production' ? process.env.MONGODB_URI : 'mongodb://localhost/googlbooks')
+  .connect(process.env.NODE_ENV === 'production' ? process.env.MONGODB_URI : 'mongodb://localhost/googlebooks')
   .then(() => app.listen(process.env.PORT || 3001))
   .catch(e => console.error(e))
